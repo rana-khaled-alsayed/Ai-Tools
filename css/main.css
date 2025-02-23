@@ -1,0 +1,175 @@
+:root{
+    --maincolor:#AB7442;
+}
+.nav-parent{
+    position: fixed;
+    z-index: 222;
+    top: 0px;
+    width: 100%;
+}
+.navbar0 .container-fluid{
+    background-color: #F5F5F5;
+    height: 55px;
+}
+.navbar0 .row{
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.navbar0 .row i{
+    color: var(--maincolor);
+    margin-right: 5px;
+}
+#nav0-content{
+    justify-content: space-around;
+}
+#nav0-content{
+    margin-top: 6px;
+}
+#nav0-content2{
+    justify-content: space-around;
+}
+#nav0-content2 p{
+    margin-top: 6px;
+}
+#nav0-content2 .i i{
+    background-color:white;
+    padding: 8px;
+    margin-top: 4px;
+    margin-right: 0px !important;
+    
+}
+@media(max-width:1130px){
+    .navbar0 .container-fluid{
+        display: none;
+    }
+}
+/* _________End of Navbar0__________ */
+.navbar {
+    padding: 0px;
+    padding-left: 15px;
+    width: 100%;
+}
+.navbar-brand{
+    color: var(--maincolor) !important;
+    font-size: 35px;
+    font-weight: 700;
+}
+.container-fluid{
+    padding-right: 0px !important;
+}
+#navbarNavDropdown{
+ justify-content: flex-end;
+ font-weight: 400;
+ font-size: 18px;
+ text-transform: uppercase;
+ color: black;
+ transition: all 1s;
+}
+.nav-item .nav-link:hover{
+    color: var(--maincolor) !important;
+}
+.dropdown-item:hover{
+    background-color: var(--maincolor);
+    color: white !important;
+}
+.nav-item{
+    margin-top: 13px !important;
+    margin-left: 30px;
+}
+#login{
+    background-color: var(--maincolor);
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    height: 100%;
+    margin-top: 0px !important;
+}
+#login a:hover{
+    color: white !important;
+}
+#login .nav-link{
+    color: white;
+}
+#login .nav-link i{
+    padding-left: 5px;
+}
+@media(max-width:991px){
+    .navbar{
+        padding-left: 0px;
+    }
+    .navbar-toggler{
+        margin-right: 10px;
+    }
+    .nav-item {
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .nav-item:hover{
+        border-bottom: 1px solid var(--maincolor);
+    }
+    .nav-item a{
+        padding-left: 10px;
+    }
+    #creator{
+        margin-top: 10px !important;
+        padding: 3px;
+    }
+}
+@media(max-width:750px){
+    .navbar{
+        padding: 5px;
+    }
+    .navbar-brand{
+        font-size: 25px;
+    }
+}
+/* ________End of Navbar_______ */
+.modal-footer{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.login-btn{
+    background-color: var(--maincolor);
+    color: #000;
+    padding: 8px;
+    width: 100%;
+}
+.login-btn:hover{
+    background-color: #aa8058;
+}
+#done-modal{
+    justify-content: center;
+    text-align: center;
+}
+.modal-header h1{
+    color: var(--maincolor);
+}
+form{
+    justify-content: center;
+    text-align: center;
+}
+form input{
+    padding: 5px;
+}
+form input::placeholder{
+    padding-left: 5px;
+}
+.fa-robot{
+    font-size: 40px;
+    margin: 5px;
+    margin-bottom: 20px;
+    color: var(--maincolor);
+}
+#done-modal i{
+    font-size: 30px;
+}
+#consult-input input{
+  width: 48%;
+}
+#consult-input label{
+  width: 48%;
+  padding-top: 10px;
+}
