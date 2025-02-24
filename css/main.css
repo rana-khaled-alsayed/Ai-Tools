@@ -43,6 +43,9 @@
     .navbar0 .container-fluid{
         display: none;
     }
+    .nav-parent{
+        width: 100%;
+    }
 }
 /* _________End of Navbar0__________ */
 .navbar {
@@ -173,3 +176,175 @@ form input::placeholder{
   width: 48%;
   padding-top: 10px;
 }
+@media(max-width:750px){
+    .fa-robot{
+        display: block;
+    }
+    #modal1-1 input{
+        width: 90%;
+    }
+}
+ /* end of login-modal */
+
+.caption{
+     margin: 140px 20px 0px 20px; 
+     font-family: "Playwrite IT Moderna", serif;
+    text-align: center;
+    color: #AB7442;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sec-1{
+    margin-top: 50px;
+}
+#all-boxes{
+    margin-left: 10px;
+}
+.ai-box{
+    background-color: #aa8058;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+}
+.ai-box a{
+    text-decoration: none;
+    color: white;
+}
+.ai-box i{
+    padding-right: 8px;
+    padding: 15px 8px 15px 8px ;
+    font-size: 70px;
+}
+.ai-box a:hover{
+    color: black;
+    transition: all 0.8s;
+    font-size: 28px;
+}
+#row-1{
+    margin-top: 20px;
+}
+#row-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    align-items: center;
+}
+
+@media(max-width:750px){
+    .caption{
+        margin-top: 80px;
+        font-size: 18px;
+    }
+    .ai-box{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #row-1{
+        width: 100%;
+    }
+    #row-2{
+        width: 100%;
+        margin: auto;
+    }
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #all-boxes{
+        margin-left: 0px;
+    }
+}
+/* end of AI Boxes */
+
+
+.section10{
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.section10 .d-lg-flex{
+    width: 100%;
+    justify-content: space-between;
+}
+.section10 .col-lg-2{
+    width: 22%;
+    padding-bottom: 30px;
+}
+.section10 .col-lg-2 h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.section10 #sec10-1 i{
+    padding-right: 12px;
+}
+.section10  #first{
+    justify-content: space-between;
+    width: 75%;
+}
+.section10  #first i{
+    border: 1px solid white;
+    padding: 10px;
+}
+.section10  #first i:hover{
+    background-color: white;
+    color:#c47e3d;
+}
+.section10 #sec10-2 p:hover{
+    color: var(--maincolor);
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+    padding-left: 10px;
+}
+.section10 #sec10-2 i{
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 900;
+}
+.section10 #second{
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    background-color: white;
+}
+.section10 #sec10-3{
+    padding: 0px;
+}
+.section10 #second input{
+    width: 65%;
+    border: 0px;
+    outline: 0px;
+}
+.section10 #second button{
+    width: 35%;
+    border: 0px;
+    background-color: var(--maincolor);
+    color: white;
+    font-weight: 700;
+}
+.section10 #second button:hover{
+    background-color: #916f50;
+}
+.section10 #third{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+@media(max-width:991px){
+    .section10 .col-lg-2{
+        width: 70%;
+        margin: auto;
+    }
+    .section10 #third{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
+/* _________End of section10________ */
+/* ______End of home page___________ */
