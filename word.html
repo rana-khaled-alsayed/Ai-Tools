@@ -13,89 +13,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-        }
-        .content-page {
-            max-width: 1000px;
-            margin: 50px auto;
-            padding: 30px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-        .content-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .content-header img {
-            width: 45%;
-            max-width: 450px;
-            border-radius: 10px;
-        }
-        .content-description {
-            width: 50%;
-            text-align: left;
-            direction: ltr;
-        }
-        .subscribe-btn {
-            background-color:#AB7442;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .subscribe-btn:hover {
-            background-color: #0056b3;
-        }
-        .experts-section {
-            margin-top: 40px;
-            text-align: center;
-        }
-        .experts-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .expert-card {
-            width: 30%;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .expert-card img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }
-        .back-link {
-            display: block;
-            margin-top: 20px;
-            text-align: center;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+    .content-page {
+        max-width: 1000px;  
+        margin: 50px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .content-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content-header img {
+        max-width: 800px; /* Set a fixed max-width */
+        height: 80%;
+        width: 40%; /* Keep the aspect ratio */
+        object-fit: contain; /* Ensure image clarity */
+        border-radius: 10px;
+    }
+    .content-description {
+        width: 50%;
+        text-align: left;
+        direction: ltr;
+    }
+    .experts-section {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .experts-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .expert-card {
+        width: 30%;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    .expert-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .subscribe-btn {
+        background-color: #AB7442;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .subscribe-btn:hover {
+        background-color: #0056b3;
+    }
+    .back-link {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        color: #007bff;
+        text-decoration: none;
+    }
+    .back-link:hover {
+        text-decoration: underline;
+    }
+</style>
+
 <body>
     <div class="content-page">
         <div class="content-header">
-            <img src="./assets/microsoft-word-logo.webp" alt="Microsoft Word Logo">
+            <img src="./assets/img/microsoft-word-logo.webp" alt="Microsoft Word Logo">
             <div class="content-description">
                 <h2>Microsoft Word</h2>
                 <p>Microsoft Word is one of the most powerful word processing programs used worldwide. You can create, edit, format documents, and add images and tables easily.</p>
@@ -111,21 +110,23 @@
                     <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Expert 1">
                     <h4>Ahmed Khaled</h4>
                     <p>Specialist in Microsoft Word for professional document creation.</p>
+                    <button class="subscribe-btn">Subscribe Now</button>
                 </div>
                 <div class="expert-card">
                     <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Expert 2">
                     <h4>Nora Saeed</h4>
                     <p>Expert in report preparation and advanced formatting in Word.</p>
+                    <button class="subscribe-btn">Subscribe Now</button>
                 </div>
                 <div class="expert-card">
                     <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Expert 3">
                     <h4>Mahmoud Adel</h4>
-                    <p>Professional trainer helping you use Word effectively and efficiently.</p>
+                    <p>Professional trainer helping you use Word effectively.</p>
+                    <button class="subscribe-btn">Subscribe Now</button>
                 </div>
             </div>
-            <button class="subscribe-btn">Subscribe with an Expert</button>
         </div>
-        <a href="./index.html" class="back-link">&#8592; Back to Microsoft Tools</a>
+
+        <a href="./innermiroc.html" class="back-link">&#8592; Back to Microsoft Tools</a>
     </div>
 </body>
-</html>
